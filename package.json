@@ -1,0 +1,55 @@
+{
+  "name": "grunt-userev2",
+
+  "version": "0.1.4",
+
+  "description": "Forked from grunt-userev: Update references to assets versioned with grunt-filerev. Leaner and faster than grunt-usemin, and able to update already versioned references.",
+
+  "homepage": "https://github.com/k3karthic/grunt-userev",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k3karthic/grunt-userev.git"
+  },
+
+  "bugs": "https://github.com/k3karthic/grunt-userev/issues",
+
+  "author": {
+    "name": "Karthic Kumaran Krisnakumar",
+    "email": "k3.karthic@live.com",
+    "url": "https://github.com/k3karthic"
+  },
+
+  "keywords": [
+    "gruntplugin", "optimize", "minify", "rev", "version", "versioning",
+    "html", "css", "assets"
+  ],
+
+  "main": "Gruntfile.js",
+
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+
+  "devDependencies": {
+    "jshint-stylish": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-filerev": "*",
+    "grunt-conventional-changelog": "*",
+    "load-grunt-tasks": "*",
+    "grunt": "*"
+  },
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
